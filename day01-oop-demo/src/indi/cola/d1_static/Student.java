@@ -13,7 +13,7 @@ public class Student {
         System.out.println(getMax(10,42));
     }
 
-    //1.静态方法可以访问静态成员变量/方法，不能直接访问实例成员变量
+    //1.静态方法可以访问静态成员变量/方法，不能"直接"访问实例成员变量
     public static int peopleNumber = 10;
     public static void Test1(){}
     public void Test2(){}
