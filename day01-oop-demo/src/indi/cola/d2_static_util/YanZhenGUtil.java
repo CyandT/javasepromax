@@ -1,4 +1,4 @@
-package indi.cola.d2_test;
+package indi.cola.d2_static_util;
 
 import java.util.Random;
 

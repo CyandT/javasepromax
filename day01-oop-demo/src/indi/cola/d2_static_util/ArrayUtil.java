@@ -1,4 +1,4 @@
-package indi.cola.d2_test;
+package indi.cola.d2_static_util;
 
 public class ArrayUtil {
     //将构造器私有,不使用对象
