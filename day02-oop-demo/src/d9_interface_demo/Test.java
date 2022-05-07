@@ -7,5 +7,6 @@ public class Test {
           a.law();
           a.run();
           a.sleep();
+
     }
 }
