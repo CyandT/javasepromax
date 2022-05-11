@@ -6,7 +6,6 @@ public class Actor implements People{
     public Actor(String name) {
         this.name = name;
     }
-
     @Override
     public void law() {
         System.out.println(name + "遵守法律");

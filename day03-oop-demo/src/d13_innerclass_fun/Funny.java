@@ -13,7 +13,7 @@ public class Funny {
         JFrame jFrame = new JFrame("登陆界面");
         //2.创建一个桌布自动适应按键大小
         JPanel jPanel  = new JPanel();
-        jFrame.add(jPanel);
+        jFrame.add(jPanel); 
 
         //3.创建按键对象
         JButton jButton = new JButton("登录");
