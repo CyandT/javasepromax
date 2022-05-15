@@ -28,7 +28,7 @@ public class RegexDemo {
         while (true) {
             System.out.println("请输入您的email:");
             String email  = sc.next();
-            if(email.matches("\\d{3,15}@\\w{2,5}\\.\\w{2,6}")){
+            if(email.matches("\\d{3,15}@\\w{2,5}(\\.\\w{2,6}){1,2}")){
                 System.out.println("格式正确~成功注册!");
                 break;
             }else {
