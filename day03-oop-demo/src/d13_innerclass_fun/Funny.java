@@ -18,11 +18,8 @@ public class Funny {
         //3.创建按键对象
         JButton jButton = new JButton("登录");
         //注意:匿名内部类的使用
-        jButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        jButton.addActionListener((ActionEvent e) ->{
                 JOptionPane.showMessageDialog(jFrame,"点我一下,说明爱我!");
-            }
         });
         jPanel.add(jButton);
 

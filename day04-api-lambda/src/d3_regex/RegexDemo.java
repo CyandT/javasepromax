@@ -16,6 +16,7 @@ public class RegexDemo {
         while (true) {
             System.out.println("请输入您的手机号码:");
             String phone  = sc.next();
+            //  phone: 13549871161
             if(phone.matches("1[3-9]\\d{9}")){
                 System.out.println("格式正确~成功注册!");
                 break;
