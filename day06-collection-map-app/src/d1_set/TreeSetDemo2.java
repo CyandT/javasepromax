@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class TreeSetDemo {
+public class TreeSetDemo2 {
     public static void main(String[] args) {
         Set<Fruit> fruits = new TreeSet<>(new Comparator<Fruit>() {
             @Override
@@ -20,7 +20,7 @@ public class TreeSetDemo {
         fruits.add(new Fruit("苹果",23.4,8));
         fruits.add(new Fruit("西瓜",39.8,20));
         fruits.add(new Fruit("葡萄",14.7,4));
-        fruits.add(new Fruit("梨",12.3,4));
+        fruits.add(new Fruit("梨",12.3,5));
         System.out.println(fruits);
     }
 }
