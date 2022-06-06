@@ -3,6 +3,7 @@ package d1_stream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -15,7 +16,9 @@ public class StreamApi {
         System.out.println(list);
 
 //        1、过滤( filter() )
-        list.stream().filter(s -> s.startsWith("张")).forEach(s -> System.out.println(s));
+        Stream<String> zhangList = list.stream().filter(s -> s.startsWith("张"));
+        List<String> collect = zhangList.collect(Collectors.toList());
+        System.out.println(collect);
 //        2、取(跳过skip)前几个元素limit()
         list.stream().filter(s -> s.startsWith("张")).limit(2).forEach(s -> System.out.println(s));
 //        3、去除重复元素
