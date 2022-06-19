@@ -3,7 +3,7 @@ package threadpool_creat;
 import java.util.concurrent.*;
 
 /**
- * 创建线程池
+ * 创建线程池处理Runnable任务
  */
 public class ThreadPoolDemo1 {
     public static void main(String[] args) {
